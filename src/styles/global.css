@@ -1,0 +1,26 @@
+/* Import JetBrains Mono from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap");
+
+/* Reset default styles */
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+:root {
+  font-family: "JetBrains Mono", monospace;
+}
+
+body {
+  margin: 40px;
+  background: #1b1b26;
+  color: #fff; /* Adding white text color for better contrast */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  gap: 4rem;
+}
