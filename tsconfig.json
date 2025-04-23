@@ -1,6 +1,17 @@
-// tsconfig.json or jsconfig.json
 {
+  "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "types": ["astro/client"]
-  }
+    "allowJs": true,
+    "checkJs": false,
+    "jsx": "preserve",
+    "module": "ESNext",
+    "target": "ESNext",
+    "moduleResolution": "Bundler",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "strict": false
+  },
+  "include": ["src", "env.d.ts"]
 }
